@@ -271,3 +271,11 @@ Processing by StudentController#index as HTML
   [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students"
   Rendered student/index.html.erb within layouts/application (11.1ms)
 Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/students" for 121.54.44.128 at 2018-07-05 09:09:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
+  Rendered student/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 387ms (Views: 371.8ms | ActiveRecord: 0.6ms)
